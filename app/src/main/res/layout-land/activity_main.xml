@@ -28,8 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="3"
-        android:layout_marginRight="50dp"
-        android:layout_marginLeft="50dp">
+        android:layout_marginHorizontal="50dp">
         <Button
             android:id="@+id/away_three_button"
             android:layout_width="match_parent"
