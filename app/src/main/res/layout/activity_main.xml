@@ -26,25 +26,19 @@
             tools:context="com.example.android.courtcounter.MainActivity">
 
             <TextView
+                style="@style/TeamName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
                 android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="center_horizontal"
-                android:text="@string/home_team"
-                android:textColor="#616161"
-                android:textSize="18sp" />
+                android:text="@string/home_team" />
 
             <TextView
+                style="@style/Score"
                 android:id="@+id/team_a_score"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="24dp"
-                android:fontFamily="sans-serif-light"
-                android:gravity="center_horizontal"
-                android:textColor="#000000"
-                android:textSize="65sp" />
+                android:layout_marginBottom="24dp" />
 
             <Button
                 android:layout_width="match_parent"
@@ -86,25 +80,19 @@
             tools:context="com.example.android.courtcounter.MainActivity">
 
             <TextView
+                style="@style/TeamName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
                 android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="center_horizontal"
-                android:text="@string/away_team"
-                android:textColor="#616161"
-                android:textSize="18sp" />
+                android:text="@string/away_team" />
 
             <TextView
+                style="@style/Score"
                 android:id="@+id/team_b_score"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="24dp"
-                android:fontFamily="sans-serif-light"
-                android:gravity="center_horizontal"
-                android:textColor="#000000"
-                android:textSize="65sp" />
+                android:layout_marginBottom="24dp" />
 
             <Button
                 android:layout_width="match_parent"

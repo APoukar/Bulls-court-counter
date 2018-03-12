@@ -8,20 +8,16 @@
         android:layout_height="0dp"
         android:layout_weight="1">
         <TextView
+            style="@style/TeamName"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:gravity="center"
-            android:fontFamily="sans-serif-medium"
-            android:textSize="18sp"
             android:text="@string/home_team"/>
         <TextView
+            style="@style/TeamName"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:gravity="center"
-            android:fontFamily="sans-serif-medium"
-            android:textSize="18sp"
             android:text="@string/away_team"/>
     </LinearLayout>
     <RelativeLayout

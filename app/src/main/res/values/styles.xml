@@ -6,4 +6,16 @@
         <!-- Background color of buttons in the app -->
         <item name="colorButtonNormal">#BC032B</item>
     </style>
+    <style name="TeamName">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorTeamName</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="Score">
+        <item name="android:textSize">65sp</item>
+        <item name="android:textColor">@color/colorScore</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
 </resources>
